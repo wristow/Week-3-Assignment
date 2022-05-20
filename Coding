@@ -1,0 +1,53 @@
+git remote add origin https://github.com/wristow/Week-3-Assignment.git
+git branch -M main
+git push -u origin main
+package week3Assignment;
+
+public class Week3Assignment {
+
+	public static void main(String[] args) {
+		//1. Create an array of int called ages that contains the following values: 3,9,23,64,2,8,28,93.
+		//   a. Subtract the value of the first element in the array from the value in the last element. 
+		//   b. Add a new age to your array and repeat the step above to ensure it is dynamic. 
+		//   c. Use a loop to iterate through the array and calculate the average age. 
+		
+		
+		int [] ages = {3,9,23,64,40,2,8,28,93};
+		
+		System.out.println((ages[ages.length-1])- ages[0]);
+		
+		double  sum = 0.0; 
+		for (int age : ages) {
+			sum += age;
+		
+		System.out.println(sum/ages.length);
+	}}
+
+
+       // 2. Create an array of String called names that contains the following values: "Sam", "Tommy", "Tim", 
+       //    "Sally", "Buck", "Bob". 
+	   //     a. Use a loop to iterate through the array and calculate the average number of letters per name. 
+       //     b. Use a loop to iterate through the array again and concatenate all the names together, separated 
+       //     spaces, and print result to the console. 
+
+        String [] names = { "Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"}; 
+
+        double aveOfLetters = 0;{
+        for (var name : names) {
+        	aveOfLetters += names.length; 
+        	
+        	System.out.println(aveOfLetters/ names.length);
+        }
+        	
+        
+
+
+        for (int i = 0; i < names.length; i++)  {
+        	System.out.print(names[i] + " "); 
+       
+        }
+        
+        System.out.println();
+       
+        }}
+        
