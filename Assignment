@@ -1,0 +1,100 @@
+git remote add origin https://github.com/wristow/Week-3-Assignment.git
+git branch -M main
+git push -u origin main
+package week3Assignment;
+
+package week3Assignment;
+
+public class JavaWk3 {
+
+  public static void main (String[]args) {
+1. Create an array of in called ages   
+  1a. subtract the value of the first element from the last 
+1b. add new age to array and calculate average age 
+   1c. use loop to iterate through 	  
+ int[] ages = {3,9,23,64,2,8,40,28,93};
+	  int lastNumber=ages.length-1;
+	 
+	  System.out.println(ages[lastNumber]-ages [0]);
+	  double sum = 0;
+	  for (int age : ages)
+ 		sum += age; 
+
+    System.out.println(sum / ages.length); }}https://www.southeast.edu/coding-boot-camp/
+    
+  
+  2. Create an array of String called names
+   2a. Use a loop to iterate through the array and average letters 
+   2b. Use loop to iterate through array and concatenate together, separated by spaces. 
+	
+ String [] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
+     int namesletters=0; {
+       for (String name : names) {
+         namesletters += name.length();
+       }
+        double averageletters= namesletters/names.length;
+      System.out.println(averageletters);
+     }
+  } }
+ 
+  String namesTogether= "";
+   for (String name : names) {
+       namesTogether += name + " ";
+  }
+   System.out.println(namesTogether);
+}}
+  	  System.out.println(" ");} 
+	 
+  int lengthOfName = 0; {
+	for (String name : names) {
+	 
+     
+ int[] nameLengths = new int[names.length];
+
+	for (int i = 0; i < nameLengths.length; i++) {
+		nameLengths[i] = names[i].length();
+	}}
+
+
+int sumOfNameLengths = 0;{
+for (int number : nameLengths) {
+	sumOfNameLengths += number;
+}System.out.println(sumOfNameLengths);}}
+
+
+
+ String string = "Hello";
+ 
+ System.out.println( str.repeat(3) );
+
+}}
+
+	String firstName = "Wendy";
+	String lastName = "Ristow";
+
+	System.out.println(firstName + " " + lastName);}
+  }
+
+ 	int[] myArray = new int[3];
+ 	myArray[0] = 7;
+  	myArray[1]= 10;
+  	myArray[2] = 8;}
+
+  	
+  
+  public static boolean sumArray(int sum2) {
+	  int sum = 0;
+	  double sumArray; () = 0;
+	for (int number : sumArray)
+		  sum += number;
+	  if (sum > 100) {
+	return true;
+	  }
+	 return false; 
+    		
+    	
+}
+}
+
+
+
